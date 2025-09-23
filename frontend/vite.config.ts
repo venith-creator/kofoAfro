@@ -15,4 +15,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  preview: {
+    port: 4174,
+    host: true,  // Allow external connections
+    allowedHosts: ["Kofo.uk", "www.Kofo.uk"]
+  }
 })
