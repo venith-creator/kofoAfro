@@ -45,7 +45,7 @@
         <!-- Row 1 -->
         <div class="relative col-span-2 h-96 bg-black rounded-lg overflow-hidden">
           <img
-            src="/banana.jpg"
+            src="/freshProduce.png"
             class="absolute inset-0 w-full h-full object-cover opacity-70"
           />
           <div class="absolute bottom-4 left-4 text-white">
@@ -56,7 +56,7 @@
         </div>
         <div class="relative h-96 bg-black rounded-lg overflow-hidden">
           <img
-            src="/okro.jpg"
+            src="/froxen.png"
             class="absolute inset-0 w-full h-full object-cover opacity-70"
           />
           <div class="absolute bottom-4 left-4 text-white">
@@ -69,7 +69,7 @@
         <!-- Row 2 -->
         <div class="relative h-96 bg-black rounded-lg overflow-hidden">
           <img
-            src="/human hair.jpg"
+            src="/hairbeauty.png"
             class="absolute inset-0 w-full h-full object-cover opacity-70"
           />
           <div class="absolute bottom-4 left-4 text-white">
@@ -80,7 +80,7 @@
         </div>
         <div class="relative h-96 bg-black rounded-lg overflow-hidden">
           <img
-            src="/pepper.jpg"
+            src="/pantryStaples.png"
             class="absolute inset-0 w-full h-full object-cover opacity-70"
           />
           <div class="absolute bottom-4 left-4 text-white">
@@ -91,7 +91,7 @@
         </div>
         <div class="relative h-96 bg-black rounded-lg overflow-hidden">
           <img
-            src="/basmatiRice.jpg"
+            src="/beverage.png"
             class="absolute inset-0 w-full h-full object-cover opacity-70"
           />
           <div class="absolute bottom-4 left-4 text-white">
@@ -104,7 +104,7 @@
         <!-- Row 3 -->
         <div class="relative col-span-3 h-96 bg-black rounded-lg overflow-hidden">
           <img
-            src="/organicpalmoil.jpg"
+            src="/carribean.png"
             class="absolute inset-0 w-full h-full object-cover opacity-70"
           />
           <div class="absolute bottom-4 left-4 text-white">
@@ -166,8 +166,10 @@
               <button
                 class="mt-3 w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded-md flex justify-center items-center gap-2"
               >
-                🛒 Add to cart
+                <ShoppingCartIcon class="w-5 h-5 text-white-500" />
+                Add to cart
               </button>
+
             </div>
           </div>
         </div>
@@ -179,8 +181,8 @@
       class="py-16 px-4 sm:px-10 bg-white grid md:grid-cols-2 gap-8 items-center"
     >
       <div class="grid grid-cols-2 gap-4">
-        <img src="/human hair.jpg" class="rounded-lg shadow-md" />
-        <img src="/jollof rice mix.jpg" class="rounded-lg shadow-md mt-8" />
+        <img src="/top1.png" class="rounded-lg shadow-md" />
+        <img src="/shopbag.png" class="rounded-lg shadow-md mt-8" />
       </div>
       <div>
         <h2 class="text-green-600 text-2xl font-bold mb-6">
@@ -233,6 +235,7 @@ import {
   ArrowRightIcon,
   CheckCircleIcon,
   ChevronDownIcon,
+  ShoppingCartIcon
 } from "@heroicons/vue/24/solid";
 
 const productSections = [
@@ -249,7 +252,7 @@ const productSections = [
     title: "African Essentials",
     subtitle: "Authentic ingredients from across Africa",
     items: [
-      { name: "Yam (White)", weight: "1.5kg", price: "£4.99", image: "/banana.jpg" },
+      { name: "Yam (White)", weight: "1.5kg", price: "£4.99", image: "/yam.jpg" },
       { name: "Plantain Chips - Salted", weight: "150g", price: "£1.99", image: "/plantainchips.jpg" },
       { name: "Shea Butter - Raw", weight: "500g", price: "£9.99", image: "/premiumshearbutter.jpg" },
       { name: "Jollof Rice Spice Mix", weight: "200g", price: "£4.99" , image: "/jollof rice mix.jpg" },

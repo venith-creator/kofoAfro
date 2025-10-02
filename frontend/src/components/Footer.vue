@@ -7,7 +7,7 @@
           <!-- Logo + Name -->
           <div class="flex items-center space-x-3">
             <img
-              src="/kofo.png"
+              src="/kofs.png"
               alt="Kofo Stores Logo"
               class="w-8 h-8"
             />
@@ -128,7 +128,7 @@
                   2 0 00-2-2H5a2 2 0 00-2 2v10a2
                   2 0 002 2z" />
               </svg>
-              <a href="mailto:Info@kofostores.uk">Info@kofostores.uk</a>
+              <a href="mailto:Info@kofostores.uk">Info@kofo.uk</a>
             </li>
             <li class="flex items-center space-x-3">
               <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">

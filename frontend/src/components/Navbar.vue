@@ -24,7 +24,7 @@
       <div class="container mx-auto px-4 h-16 flex justify-between items-center">
         <!-- Logo -->
         <div class="flex items-center space-x-2">
-          <img src="/kofo.png" class="w-8 h-8" />
+          <img src="/kofs.png" class="w-8 h-8" />
           <span>
             <span class="text-green-600 font-bold">Kofo</span>
             <span class="text-yellow-500 font-bold">Stores</span>
