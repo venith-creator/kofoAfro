@@ -27,7 +27,7 @@
           <!-- Social Icons (green) -->
           <div class="flex space-x-3">
             <!-- Facebook -->
-            <a href="#" class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center hover:bg-green-200 transition-colors">
+            <a target="_blank" href="https://www.facebook.com/kofoafroshopuk?mibextid=wwXIfr" class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center hover:bg-green-200 transition-colors">
               <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 24 24">
                 <path
                   d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0
@@ -42,7 +42,7 @@
             </a>
 
             <!-- Instagram -->
-            <a href="#" class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center hover:bg-green-200 transition-colors">
+            <a target="_blank" href="https://www.instagram.com/kofo.supermarket?igsh=MTY2MXpvNjAzZmp3dQ==" class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center hover:bg-green-200 transition-colors">
               <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 24 24">
                 <path
                   d="M7.5 2h9A5.5 5.5 0 0122

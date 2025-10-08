@@ -20,11 +20,20 @@ export default defineConfigWithVueTs(
 
   pluginVue.configs['flat/essential'],
   vueTsConfigs.recommended,
-  
+
   {
     ...pluginVitest.configs.recommended,
     files: ['src/**/__tests__/*'],
   },
   ...pluginOxlint.configs['flat/recommended'],
   skipFormatting,
+  {
+     rules: {
+    'vue/block-lang': 'off',
+    'vue/multi-word-component-names': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-empty-object-type': 'off',
+    '@typescript-eslint/no-require-imports': 'off',
+  },
+  }
 )
