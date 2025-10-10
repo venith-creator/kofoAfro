@@ -151,6 +151,16 @@
       <!-- Copyright -->
       <div class="border-t border-gray-200 pt-8 text-center">
         <p class="text-gray-600">© 2025 Kofo Stores. All rights reserved.</p>
+        <p class="text-gray-500 text-sm mt-2">
+          Built by
+          <a
+            href="https://www.timglobal.uk"
+            target="_blank"
+            class="text-blue-500 hover:underline"
+          >
+            Timglobal
+          </a>
+        </p>
       </div>
     </div>
   </footer>
