@@ -62,7 +62,7 @@
             </a>
 
             <!-- YouTube -->
-            <a href="#" class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center hover:bg-green-200 transition-colors">
+            <a target="_blank" href="https://youtube.com/@kofostores?si=dBYcw5Q9M1tm8dO6" class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center hover:bg-green-200 transition-colors">
               <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 24 24">
                 <path
                   d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505
